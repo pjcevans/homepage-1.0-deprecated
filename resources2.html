@@ -1,0 +1,19 @@
+---
+layout: page
+title: Piecemeal Resources
+permalink: /piecemeal-resources/
+---
+<p>Everything below is pulled in from markdown files held in `/_pre_course/foo.md` a folder which contains items that are part of a collection (see config.yml)</p>
+
+<ul>
+{% for resource in site.pre_course %}
+  <li><a href=#{{resource.title}}>{{ resource.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% for resource in site.pre_course %}
+  <div class="resource">
+    <h2><a name={{resource.title}}>{{ resource.title }}</a></h2>
+    {{ resource.content | markdownify }}
+  </div>
+{% endfor %}

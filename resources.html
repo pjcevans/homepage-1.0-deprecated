@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Resources
-permalink: /resources/
+title: Unified Resources
+permalink: /unified-resources/
 ---
 <p>Everything below is pulled in from a markdown file held at _includes/resources.md</p>
 
-{% capture resources-include %}{% include pre-course-resources.md %}{% endcapture %}
-{{ resources-include | markdownify }}
+{% capture resources-include %}{% include resources.md %}{% endcapture %}
+  <div class="resource">
+    {{ resources-include | markdownify }}
+  </div>
