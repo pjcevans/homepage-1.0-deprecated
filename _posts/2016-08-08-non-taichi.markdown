@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Martial Drills"
-date:   2016-08-01 17:01:34 +0100
+title:  "Non taichi Test Post"
+date:   2016-08-08 17:01:34 +0100
 categories: jekyll update
 tags:
-- taichi
+- test
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
