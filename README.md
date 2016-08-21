@@ -21,3 +21,8 @@ This site has two main branches - master and gh-pages: master is the current wor
 * Used http://veithen.github.io/2015/03/26/jekyll-bootstrap.html for adding bootstrap Sass port to Jekyll
 * Sass variables are defined in `_sass/_variables.scss` so that they can be included for use in all new stylesheets.
 * The Sass bootstrap port repo has been cloned to css/bootstrap-sass and is only used for updating bootstrap sass. To update bootstrap sass version cd into the `/css/bootstrap-sass` repo, checkout the latest release branch and pull. Then copy `css/bootstrap-sass/assets/stylesheets/_bootstrap.scss` and the sibling `bootstrap` directory to `/_sass`. Other than easy access to this functionality the bootstrap-sass repo is not used by Jekyll and could be removed.
+
+
+### Potentially useful tutorials etc
+
+* For working on a resources page [this](http://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category) is someone trying to produce a similar [result](http://mrenaud.ca/resources/)
