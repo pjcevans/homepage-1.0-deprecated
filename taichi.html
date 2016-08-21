@@ -1,23 +1,13 @@
 ---
-layout: default
+layout: page
+title: Tai chi test
+permalink: /taichi/
 ---
 
-<div class="home">
+<div>
+  <p>Posts not tagged with 'taichi' are excluded, allowing different pages to essentially represent their own blogs</p>
+  <p>Logic for generating the list of posts is included from _includes so as to be re-usable</p>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%-d %B, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% include tagPagesLoop.html tagName='taichi' %}
 
 </div>
