@@ -14,7 +14,7 @@ Because learning is fun... and sometimes destructive.
 ### How
 The site is hosted on github-pages and uses the static site generator Jekyll.
 
-This site has two main branches - master and gh-pages: master is the current working branch, gh-pages is the deploy branch. Changes pushed to gh-pages trigger a Jekyll deploy to github pages. The current workflow (though possibly unwise) is to submit pull requests on new branches to master and merge them. In order to then deploy these changes to github pages the gh-pages branch is brought up to date with master and pushed.
+The site uses the master branch for jekyll builds. Previously used gh-pages based on tutorials but that's not necessary for a username.github.io named repo
 
 
 ### Potentially useful tutorials etc
