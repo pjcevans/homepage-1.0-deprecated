@@ -7,7 +7,6 @@
 
 # Site settings
 title: Pjcevans general test zone
-source: src
 email: Peterjcevans-gmail
 description: > # this means to ignore newlines until "baseurl:"
   This is a general testing area for applications of Jekyll and Github Pages.
