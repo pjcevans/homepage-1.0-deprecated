@@ -15,7 +15,7 @@ var getJSON = function(url) {
   });
 };
 
-getJSON('https://api.meetup.com/founderscoders/events?&sign=true&photo-host=public&page=5&status=upcoming').then(function(data) {
+getJSON('https://api.meetup.com/founderscoders/events?sig_id=183914168&sig=ea5496808a9860ea997d74b191fa0bfedbb36733').then(function(data) {
     alert('Your Json result is:  ' + data.result); // debug
 
     result.innerText = data.result; // display the result in an HTML element
