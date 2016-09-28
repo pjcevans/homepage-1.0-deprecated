@@ -1,8 +1,3 @@
----
-layout: page
-title: Til
-permalink: /til/
----
 
 # Reference for developing a Jekyll app hosted on GitHub Pages
 
