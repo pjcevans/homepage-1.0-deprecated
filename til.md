@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Til
 permalink: /til/
 ---
 
@@ -19,13 +18,8 @@ permalink: /til/
 
 
 ## Introduction <a name="introduction"></a>
-// Edit this to be WHAT/ WHY/ HOW
 
-[Jekyll](https://github.com/jekyll/jekyll/blob/master/README.markdown) is the static site generator that powers GitHub Pages. Written in Ruby, its aim is to enable effective static sites with minimum configuration while allowing common code to be separated out into modules. Being able to host directly from a GitHub repo also mitigates the need to deal with a separate hosting solution.
-// combine the above 2 benefits/aims/whatevers of jekyll into 2 sentences ^^^ - change aim / benefits to be more cohesive or something
-
-
-
+[Jekyll](https://github.com/jekyll/jekyll/blob/master/README.markdown) is the static site generator that powers GitHub Pages. Written in Ruby, its aim is to enable effective static sites with minimum configuration while allowing common code to be separated out into modules. Being able to host directly from a GitHub repo mitigates the need to deal with a separate hosting solution.
 
 ## Starting a new site hosted on GitHub Pages <a name="initial"></a>
 
@@ -148,20 +142,7 @@ The [`_includes`](http://jekyllrb.com/docs/templates/#includes) folder contains 
 
 This could allow us to avoid having to include the same header and footer on each of our pages, instead we can store that code inside the included fragment. This is a very powerful feature particularly when we start writing more complex code making use of the Liquid Templating Engine where we are able to encapsulate and easily re-use more complex structural elements.
 
-```
-<!DOCTYPE html>
-<html>
-  <body>
-    {% include header.html %}
-    <div>
-      <div>
-        {{ content }}
-      </div>
-    </div>
-    {% include footer.html %}
-  </body>
-</html>
-```
+![includes example](/assets/img/includes.png)
 
 #### `_posts` and collections
 Posts are the main "blog" functionality of Jekyll. The [Introduction to Collections](http://jekyll.tips/jekyll-casts/introduction-to-collections/) page at jekyll.tips explains really simply when to use pages, posts, or collections based on the type of information that is being presented:
@@ -189,7 +170,7 @@ Posts are the main "blog" functionality of Jekyll. The [Introduction to Collecti
 ## Front Matter <a name="frontmatter"></a>
 [Front Matter](https://jekyllrb.com/docs/frontmatter/) is a [YAML](http://www.yaml.org/start.html) formatted block at the start of a page (or post etc) which provides extra information that can be used in a Jekyll template.
 
-```
+```html
 ---
 layout: default
 title: About
@@ -208,24 +189,11 @@ The YAML block above (distinguished by the triple dashes `---`) tells Jekyll tha
 + **To set the page `permalink` to "/about/"** - This prevents our urls containing filenames like about.html - The same effect can also be achieved by separating page files out into their own folders
 
 ## Liquid Templating <a name="liquid"></a>
-[Liquid](https://shopify.github.io/liquid/) is the templating language that Jekyll uses. This can be used for a [wide array of purposes](https://jekyllrb.com/docs/templates/). For example take the below code written in Liquid:  
+[Liquid](https://shopify.github.io/liquid/) is the templating language that Jekyll uses. This can be used for a [wide array of purposes](https://jekyllrb.com/docs/templates/). For example take the below code written using some Liquid tags:  
 
-```
-{% comment %}
-<header>
-  <nav>
-    <ul>
-      <li id="nav-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-</header>
-{% endcomment %}
-```
+
+![includes example](/assets/img/liquid.png)
+
 
 This is some fairly standard code taken from a `header.html` from an `_includes` folder, containing the structure of a navigation bar. Most of the expressions used here make use of the `site` object and its properties that is made available as part of every Jekll site. A few things are happening here:
 
