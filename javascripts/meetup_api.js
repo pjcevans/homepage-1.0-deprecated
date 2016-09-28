@@ -1,7 +1,7 @@
 var getJSON = function(url) {
   return new Promise(function(resolve, reject) {
     var xhr = new XMLHttpRequest();
-    xhr.open('get', url, true);
+    xhr.open('GET', url, true);
     xhr.responseType = 'json';
     xhr.onload = function() {
       var status = xhr.status;
@@ -15,7 +15,7 @@ var getJSON = function(url) {
   });
 };
 
-getJSON('https://api.meetup.com/founderscoders/events?sig_id=183914168&sig=ea5496808a9860ea997d74b191fa0bfedbb36733').then(function(data) {
+getJSON('https://cfe-meetup-api.herokuapp.com/find/groups?id=18356664').then(function(data) {
     alert('Your Json result is:  ' + data.result); // debug
 
     result.innerText = data.result; // display the result in an HTML element
