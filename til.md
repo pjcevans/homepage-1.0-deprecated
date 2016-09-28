@@ -211,6 +211,7 @@ The YAML block above (distinguished by the triple dashes `---`) tells Jekyll tha
 [Liquid](https://shopify.github.io/liquid/) is the templating language that Jekyll uses. This can be used for a [wide array of purposes](https://jekyllrb.com/docs/templates/). For example take the below code written in Liquid:  
 
 ```
+{% comment %}
 <header>
   <nav>
     <ul>
@@ -223,10 +224,12 @@ The YAML block above (distinguished by the triple dashes `---`) tells Jekyll tha
     </ul>
   </nav>
 </header>
+{% endcomment %}
 ```
 
 This is some fairly standard code taken from a `header.html` from an `_includes` folder, containing the structure of a navigation bar. Most of the expressions used here make use of the `site` object and its properties that is made available as part of every Jekll site. A few things are happening here:
 
++ The above code segment is wrapped in a comment tag so that it can be displayed on this Jekyll site, these would not be present in the actual file
 + The first `<li>` element is set to link to the [base url](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/) of our site, which can be configured in `_config.yml`
 + The text of the above link is set to the site's title, also set in `_config.yml`
 + We are iterating through a list the pages our site contains (this list is automatically constructed by Jekyll) using the `my_page` variable to represent the current pages
