@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Til
+permalink: /til/
 ---
 
 # Reference for developing a Jekyll app hosted on GitHub Pages
