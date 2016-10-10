@@ -1,8 +1,8 @@
 
-<ul>
+<div id="postsFlex">
   {% for post in site.posts %}
-    <li>
+    <div>
       <span>{{ post.date | date: "%-d %B, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
+    </div>
   {% endfor %}
 </ul>
