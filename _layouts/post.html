@@ -6,13 +6,16 @@
   <body>
     {% include header.html %}
 
-    <div id="container">
+    <div id="flexContainer">
 
-      <div class="topContent">
+      <div id="flexContent">
         {{ content }}
       </div>
 
-      {% include postsLoop.html %}
+      <div id="flexPosts">
+        {% include postsLoop.html %}
+      </div>
+
     </div>
   </body>
 

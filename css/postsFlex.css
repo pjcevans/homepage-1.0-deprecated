@@ -1,14 +1,16 @@
-#container {
+
+#flexContainer {
   display: flex;
-  flex-flow: row;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-#postsFlex {
+#flexContent {
+  border: thin solid black;
+}
+
+#flexPosts {
   border: thin solid blue;
-  display: flex;
-  flex-flow: column nowrap;
-  width: 1200px;
+  order: -1;
 }
 
 .postItem {
@@ -17,4 +19,20 @@
   padding: 15px;
   text-align: center;
 
+}
+
+@media (min-width: 768px) {
+  #flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  #flexContent {
+    border: thin solid black;
+    flex: 1;
+  }
+  #flexPosts {
+    border: thin solid blue;
+    flex: 0 0 12em;
+  }
 }
