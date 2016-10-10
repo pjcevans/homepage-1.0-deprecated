@@ -22,7 +22,7 @@
 @media (min-width: 768px) {
   #flexContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex: 1;
   }
   #flexContent {
