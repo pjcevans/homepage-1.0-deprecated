@@ -1,5 +1,7 @@
 @import "animations.css";
 @import "postsFlex.css";
 
-#topContent {
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: large;
 }

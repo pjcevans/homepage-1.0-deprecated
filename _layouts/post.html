@@ -4,15 +4,16 @@
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
 
-    <div class="topContent">
-      {{ content }}
-    </div>
+    <div id="container">
 
-    {% include postsLoop.html %}
-    
+      <div class="topContent">
+        {{ content }}
+      </div>
+
+      {% include postsLoop.html %}
+    </div>
   </body>
 
 </html>

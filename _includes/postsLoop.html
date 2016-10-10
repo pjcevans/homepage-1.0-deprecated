@@ -1,7 +1,7 @@
 
 <div id="postsFlex">
   {% for post in site.posts %}
-    <div>
+    <div class="postItem">
       <span>{{ post.date | date: "%-d %B, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </div>
   {% endfor %}
