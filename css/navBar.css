@@ -9,3 +9,7 @@ nav ul {
 nav ul li {
   font-size: 30px;
 }
+
+nav ul li:last-child {
+
+}
