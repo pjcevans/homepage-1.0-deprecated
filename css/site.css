@@ -1,5 +1,6 @@
 @import "animations.css";
 @import "postsFlex.css";
+@import "navBar.css";
 
 body {
   font-family: Tahoma, Geneva, sans-serif;
@@ -10,7 +11,7 @@ h1 {
   margin-bottom: 5px;
 }
 
-img {
+.fitWidth {
   width:100%;
 }
 

@@ -8,7 +8,7 @@ date:   2016-10-10 19:25:34 +0100
 
 At the time of writing Flex is a new approach to page or element layout, different to the block layout approach in that it does not use floats or collapsing margins. It is very much an approach with different screen sizes in mind and as such is a powerful tool for creating dynamic web pages without involving the complexities of a grid framework.
 
-![Flexbox froggy screenshot](/images/flexbox_froggy.png)
+![Flexbox froggy screenshot](/images/flexbox_froggy.png){: .fitWidth}
 
 [Flexbox froggy](http://flexboxfroggy.com/) is a great little web app that runs through the positioning basics. Anyone who has worked with a block model based grid framework, or the block model directly, will get a feel for the implications for a new layout paradigm.
 
@@ -23,5 +23,5 @@ possibly useful: http://the-echoplex.net/flexyboxes/
 + Time to read this article - 2 minutes
 + Originally inspired to work on the topic because of @msmichellegar in the https://gitter.im/codingforeveryone channel mentioning http://flexboxfroggy.com/
 + Further reading:
-  + [The obvious MDN explanation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
+  + [The obligatory MDN explanation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
   + [A tutorial on how to (very easily) produce the holy grail of web pages using Flex](https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/)
