@@ -31,6 +31,6 @@
   }
   #flexPosts {
     border: thin solid blue;
-    flex: 0 0 12em;
+    flex: 0 0 14em;
   }
 }

@@ -5,3 +5,20 @@ body {
   font-family: Tahoma, Geneva, sans-serif;
   font-size: large;
 }
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.metadata {
+  color: gray;
+  margin-top: 0px;
+}
+
+.nomargin {
+   margin: 0;
+}

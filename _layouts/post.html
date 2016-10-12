@@ -9,10 +9,13 @@
     <div id="flexContainer">
 
       <div id="flexContent">
+        <h1>{{page.excerpt}}</h1>
+        <p class="metadata">{{page.date | date: "%-d %B, %Y" }}</p>
         {{ content }}
       </div>
 
       <div id="flexPosts">
+        <h3 class="centered">Blog roll</h3>
         {% include postsLoop.html %}
       </div>
 
