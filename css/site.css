@@ -11,6 +11,10 @@ h1 {
   margin-bottom: 5px;
 }
 
+a {
+  color: black;
+}
+
 .fitWidth {
   width:100%;
 }
