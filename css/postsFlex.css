@@ -19,11 +19,14 @@
   margin-bottom: 5px;
 }
 
-.postItem, .contentItem .navItem{
+.postItem, .contentItem, .navItem{
   border-radius: 10px;
   background-color: white;
   margin: 15px;
   padding: 15px;
+}
+
+.postItem {
   text-align: center;
 }
 

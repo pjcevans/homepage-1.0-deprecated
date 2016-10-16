@@ -4,3 +4,11 @@ title: "Jekyll"
 excerpt:  "Jekyll - Generating static sites"
 date:   2016-10-12 14:05:12 +0100
 ---
+
+For more in depth information about Jekyll and GitHub pages check out the [Developing a Jekyll app hosted on GitHub Pages](https://github.com/codingforeveryone/READMEs/blob/3b77f7ae3dc0619a520b9e0c80353996e99a15f2/programmer-skills/jekyll-on-gh-pages-basics.md) that I wrote as part of the Coding for Everyone tutorials [GitBook](https://www.gitbook.com/book/foundersandcoders/codingforeveryone/details).
+
+Jekyll is a static site generator and is what this site is built with. It allows content to be broken down into smaller parts in the same way that many frameworks do but is very lightweight. As such it also lacks many of the features of bigger frameworks (though some capability is added with extensions) and so the decision on when to use Jekyll has to be a pragmatic one. For small project documentation sites or personal blogs, like this one, it is the perfect mix.
+
+The static site is generated whenever updates are added and so the server has to do very little when a user navigates the site, allowing for a very quick and resource-light experience. As a result for simple sites Jekyll offers many of the advantages of a Wordpress blog or Rails app but without using a bloated database or involving unnecessary features.
+
+[![Jekyll website screenshot](/images/jekyll.png){: .fitWidth}](https://jekyllrb.com/)
