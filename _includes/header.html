@@ -1,8 +1,8 @@
 <header>
 
-  <nav>
+  <nav class="nomargin">
     <div>
-      <ul>
+      <ul class="nomargin">
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <li class="navItem"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>

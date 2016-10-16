@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 
-#flexContent, #flexPosts, nav {
+#flexContent, #flexPosts {
   background-color: #eff2f7;
   border-radius: 15px;
 }

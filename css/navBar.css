@@ -1,3 +1,9 @@
+nav {
+  background-image: url("/images/skybanner.png");
+  background-size: cover;
+  min-height: 300px;
+}
+
 nav ul {
   display: flex;
   list-style: none;
