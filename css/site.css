@@ -19,11 +19,19 @@ h1 {
   text-align: center;
 }
 
-.metadata {
+.metadata, .postsMetadata {
   color: gray;
   margin-top: 0px;
 }
 
+.postsTitle {
+  font-size: 15px;
+}
+
+.postsMetadata {
+  font-size: 12px;
+}
+
 .nomargin {
-   margin: 0;
+  margin: 0;
 }

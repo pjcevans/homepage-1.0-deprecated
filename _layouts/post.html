@@ -8,14 +8,16 @@
 
     <div id="flexContainer">
 
-      <div id="flexContent" class="animated shimmy">
-        <h1>{{page.excerpt}}</h1>
-        <p class="metadata">{{page.date | date: "%-d %B, %Y" }}</p>
-        {{ content }}
+      <div id="flexContent" >
+        <div class="animated shimmy contentItem">
+          <h1>{{page.excerpt}}</h1>
+          <p class="metadata">{{page.date | date: "%-d %B, %Y" }}</p>
+          {{ content }}
+        </div>
       </div>
 
       <div id="flexPosts">
-        <h3 class="centered">Blog roll</h3>
+        <h3 class="centered">Blog posts</h3>
         {% include postsLoop.html %}
       </div>
 

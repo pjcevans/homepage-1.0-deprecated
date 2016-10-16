@@ -4,20 +4,31 @@
   flex-direction: column;
 }
 
+#flexContent, #flexPosts {
+  background-color: #eff2f7;
+  border-radius: 15px;
+}
+
 #flexContent {
-  border: thin solid black;
+  padding: 5px;
+  margin-right: 10px;
 }
 
 #flexPosts {
-  border: thin solid blue;
   order: -1;
+  margin-bottom: 5px;
 }
 
-.postItem {
-  border: thin solid red;
+.postItem, .contentItem {
+  border-radius: 10px;
+  background-color: white;
   margin: 15px;
   padding: 15px;
   text-align: center;
+}
+
+.contentItem {
+
 }
 
 @media (min-width: 768px) {
@@ -27,11 +38,9 @@
     flex: 1;
   }
   #flexContent {
-    border: thin solid black;
     flex: 1;
   }
   #flexPosts {
-    border: thin solid blue;
-    flex: 0 0 14em;
+    flex: 0 0 9em;
   }
 }

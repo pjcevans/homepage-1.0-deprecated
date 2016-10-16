@@ -1,6 +1,6 @@
   {% for post in site.posts %}
     <div class="postItem">
-      <p class="nomargin"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-      <p class="nomargin metadata">{{ post.date | date: "%-d %B, %Y" }}</p>
+      <p class="nomargin postsTitle"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+      <p class="nomargin postsMetadata">{{ post.date | date: "%-d %B, %Y" }}</p>
     </div>
   {% endfor %}
