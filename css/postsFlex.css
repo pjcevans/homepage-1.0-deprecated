@@ -10,6 +10,7 @@
 
 #flexPosts {
   border: thin solid blue;
+  order: -1;
 }
 
 .postItem {
