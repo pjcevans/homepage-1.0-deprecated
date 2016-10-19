@@ -1,0 +1,10 @@
+{% for item in site.portfolio %}
+  <div class="postItem">
+    <p class="nomargin postsTitle"><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></p>
+    <p>
+      <a>
+        <img src="{{ item.image_path }}" alt="{{ item.title }}">
+      </a>
+    </p>
+  </div>
+{% endfor %}
