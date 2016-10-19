@@ -1,3 +1,4 @@
 title: Tai Chi Chuan
 collections:
-  - portfolio
+  portfolio:
+    output: true
