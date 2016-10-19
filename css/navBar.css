@@ -1,7 +1,7 @@
 nav {
   background-image: url("/images/skybanner.png");
   background-size: cover;
-  min-height: 300px;
+  min-height: 100px;
 }
 
 nav ul {
@@ -16,6 +16,8 @@ nav ul li {
   font-size: 30px;
 }
 
-nav ul li:last-child {
-
+@media (min-width: 768px) {
+  nav {
+    min-height: 300px;
+  }
 }
