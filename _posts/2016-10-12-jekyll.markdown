@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Jekyll"
 excerpt:  "Jekyll - Generating static sites"
 date:   2016-10-12 14:05:12 +0100

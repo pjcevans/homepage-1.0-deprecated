@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Flex"
 excerpt:  "Flex - or CSS3 Flexible Boxes (Or... Flexbox)"
 date:   2016-10-10 19:25:34 +0100
