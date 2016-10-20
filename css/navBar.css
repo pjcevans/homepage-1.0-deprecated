@@ -1,4 +1,7 @@
 nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   background-image: url("/images/skybanner.png");
   background-size: cover;
   min-height: 100px;
@@ -8,16 +11,25 @@ nav ul {
   display: flex;
   list-style: none;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: flex-end;
+  height: 100%;
 
 }
 
 nav ul li {
-  font-size: 30px;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 15px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
 
 @media (min-width: 768px) {
   nav {
-    min-height: 300px;
+    min-height: 240px;
   }
 }
