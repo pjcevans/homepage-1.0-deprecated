@@ -13,16 +13,12 @@ h1 {
 }
 
 a {
-  color: #4bb44f;
+  color: #3c903f;
   text-decoration: none;
 }
 
 a:hover {
   border-bottom: 1px dotted #43A047;
-}
-
-a:visited {
-  color: #3c903f;
 }
 
 .fitWidth {
