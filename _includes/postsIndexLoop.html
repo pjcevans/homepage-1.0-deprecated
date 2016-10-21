@@ -1,6 +1,9 @@
 {% for post in site.posts %}
-  <div class="postItem">
-    <p class="nomargin postsTitle" style="background-image: url('{{ post.image_path }}');"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-    <p class="nomargin postsMetadata">{{ post.date | date: "%-d %B, %Y" }}</p>
+  <div class="postIndexItem" >
+    <div style="background-image: url('{{ post.image_path }}');">
+      <p class="nomargin postsTitle"><span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span></p>
+      <p class="nomargin postsMetadata">{{ post.date | date: "%-d %B, %Y" }}</p>
+    </div>
+    <p>{{ post.content | strip_html | truncatewords: 50  }}</p>
   </div>
 {% endfor %}

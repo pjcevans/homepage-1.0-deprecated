@@ -50,3 +50,37 @@ a:hover {
 .nomargin {
   margin: 0;
 }
+
+/* Styles for blog index page*/
+/* Index area */
+.contentIndexItem {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.contentIndexItem > div {
+  border-radius: 10px;
+  background-color: silver;
+}
+
+/* Title banner text items */
+.postIndexItem > div > p {
+
+  border-radius: 10px;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+}
+.postIndexItem > div > p > span {
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+/* Individual post blocks */
+.postIndexItem {
+  min-width: 200px;
+  max-width: 470px;
+  margin: 15px;
+
+}
