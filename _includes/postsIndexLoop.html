@@ -1,0 +1,6 @@
+{% for post in site.posts %}
+  <div class="postItem">
+    <p class="nomargin postsTitle" style="background-image: url('{{ post.image_path }}');"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+    <p class="nomargin postsMetadata">{{ post.date | date: "%-d %B, %Y" }}</p>
+  </div>
+{% endfor %}
