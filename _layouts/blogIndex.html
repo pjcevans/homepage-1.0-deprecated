@@ -4,6 +4,14 @@ layout: default
 <div id="flexContainer">
 
   <div id="flexContent" >
+    <div>
+      <ul>
+        <li><button onClick="reset();">all</button></li>
+      {% for tag in site.tags %}
+        <li><button onClick="showAll('{{tag | pop}}');">{{tag | pop}}</button></li>
+      {% endfor %}
+      </ul>
+    </div>
     <div class="animated shimmy contentIndexItem">
       <h1>{{page.excerpt}}</h1>
       <p class="metadata">{{page.date | date: "%-d %B, %Y" }}</p>
