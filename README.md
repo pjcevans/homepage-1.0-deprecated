@@ -1,6 +1,6 @@
 ### What
 
-A simple blog recording self-study progression
+A simple blog recording self-study progression. [Link to the current build](https://pjcevans.github.io/)
 
 ### Why
 
