@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Jekyll"
+title: "Jekyll - frameworks"
 excerpt:  "Jekyll - Generating static sites"
 date:   2016-10-12 14:05:12 +0100
 image_path: /images/jekyll.png
