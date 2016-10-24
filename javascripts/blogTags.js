@@ -1,5 +1,5 @@
 function showAll(tag) {
-  var elements = document.getElementsByClassName("postIndexItem")
+  var elements = document.getElementsByClassName("postIndexItem");
   // Hide every blog post item
   for(var i = 0; i < elements.length; i++) {
      elements.item(i).style.display = "none";
@@ -12,9 +12,9 @@ function showAll(tag) {
 }
 
 function reset() {
-  var elementsToReset = document.getElementsByClassName("postIndexItem")
+  var elementsToReset = document.getElementsByClassName("postIndexItem");
   // Hide every blog post item
-  for(var i = 0; i < ele  mentsToReset.length; i++) {
+  for(var i = 0; i < elementsToReset.length; i++) {
      elementsToReset.item(i).style.display = "block";
   }
 }
