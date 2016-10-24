@@ -1,6 +1,6 @@
 
 {% for post in site.posts %}
-  <div class="postIndexItem {{ post.tags }}" >
+  <div class="animated shimmy postIndexItem {{ post.tags }}" >
     <div style="background-image: url('{{ post.image_path }}');">
       <p class="nomargin postsTitle"><span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span></p>
       <p class="nomargin postsMetadata">{{ post.date | date: "%-d %B, %Y" }}</p>

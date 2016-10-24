@@ -20,4 +20,6 @@ function reset() {
   for(var i = 0; i < elementsToReset.length; i++) {
      elementsToReset.item(i).style.display = "block";
   }
+
+
 }
