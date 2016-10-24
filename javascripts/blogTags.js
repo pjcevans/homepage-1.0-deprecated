@@ -1,11 +1,9 @@
 function showAll(tag) {
   var elements = document.getElementsByClassName("postIndexItem")
-
   // Hide every blog post item
   for(var i = 0; i < elements.length; i++) {
      elements.item(i).style.display = "none";
   }
-
   // Unhide every selected blog post item
   var showElements = document.getElementsByClassName(tag);
   for(var j = 0; j < showElements.length; j++) {
@@ -15,11 +13,8 @@ function showAll(tag) {
 
 function reset() {
   var elementsToReset = document.getElementsByClassName("postIndexItem")
-
   // Hide every blog post item
-  for(var i = 0; i < elementsToReset.length; i++) {
+  for(var i = 0; i < ele  mentsToReset.length; i++) {
      elementsToReset.item(i).style.display = "block";
   }
-
-
 }
