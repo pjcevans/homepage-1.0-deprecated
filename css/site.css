@@ -1,6 +1,7 @@
   @import "animations.css";
 @import "postsFlex.css";
 @import "navBar.css";
+@import "tagBar.css";
 
 body {
   font-family: Tahoma, Geneva, sans-serif;

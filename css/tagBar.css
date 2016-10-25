@@ -1,0 +1,45 @@
+.tagBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.tagBar ol {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+  margin: 0;
+}
+
+.tagBar ol li {
+  font-size: 0.8em;
+  padding: 7px;
+  padding-bottom: 2px;
+}
+
+.tagBar ol li button {
+  margin: 0px;
+  border-radius: 10px;
+  background-color: #018850;
+  color: white;
+}
+
+.tagBar ol li button:focus {
+  outline: 0;
+  color: yellow;
+}
+
+@media (min-width: 768px) {
+  .tagBar ol li {
+    font-size: 1em;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .tagBar ol li button {
+    font-size: 0.9em;
+    padding: 10px 20px 10px 20px;
+  }
+}

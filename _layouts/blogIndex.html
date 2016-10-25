@@ -4,13 +4,14 @@ layout: default
 <div id="flexContainer">
 
   <div id="flexContent" >
-    <div>
-      <ul>
+    <div class="tagBar">
+      <ol>
+        <li><label>Filter by: </label></li>
         <li><button onClick="reset();">all</button></li>
       {% for tag in site.tags %}
         <li><button onClick="showAll('{{tag | pop}}');">{{tag | pop}}</button></li>
       {% endfor %}
-      </ul>
+    </ol>
     </div>
     <div class="contentIndexItem">
       <h1>{{page.excerpt}}</h1>
