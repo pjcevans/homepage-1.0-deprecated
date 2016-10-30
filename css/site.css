@@ -61,7 +61,7 @@ a:hover {
 .contentIndexItem {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
