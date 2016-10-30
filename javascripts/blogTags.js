@@ -3,7 +3,7 @@ function showAll(tag) {
   // Hide every blog post item
   for(var i = 0; i < elements.length; i++) {
      elements.item(i).style.order = 1;
-     elements.item(i).style.opacity = 0.3;
+     elements.item(i).style.opacity = 0;
      elements.item(i).style.transition = "opacity .5s ease-in-out";
      //elements.item(i).style.display = "none";
   }
