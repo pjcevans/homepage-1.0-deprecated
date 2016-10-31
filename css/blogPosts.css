@@ -1,0 +1,100 @@
+
+#flexContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#flexContent, #flexPosts {
+  background-color: #eff2f7;
+}
+
+#flexContent {
+  padding: 5px;
+}
+
+#flexPosts {
+  order: 1;
+  margin-bottom: 5px;
+}
+
+.postItem, .contentItem {
+  border-radius: 10px;
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+}
+
+.postItem {
+  text-align: center;
+}
+
+/* Styles for blog index page*/
+/* Index area */
+.contentIndexItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contentIndexItem > div {
+  border-radius: 10px;
+  background-color: #444444;
+}
+/* blog title banner */
+.postIndexItem div {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  min-height: 150px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.7;
+  transition: opacity .8s ease-in-out;
+}
+.postIndexItem div:hover {
+  opacity: 1.0;
+  transition: opacity .3s ease-in-out;
+}
+/* Title banner text items */
+.postIndexItem > div > p {
+  text-align: center;
+  padding: 5px;
+  background-color: #444444;
+  border-radius: 0px 10px 0px 0px;
+}
+.postIndexItem > div > p > span > a {
+ color: white;
+ font-size: 25px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+/* Individual post blocks */
+.postIndexItem {
+  min-width: 200px;
+  max-width: 470px;
+  margin: 15px;
+  color: white;
+}
+
+.postIndexItem p {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  #flexContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+  }
+  #flexContent {
+    flex: 1;
+  }
+  #flexPosts {
+    flex: 0 0 9em;
+    order: -1;
+  }
+}
