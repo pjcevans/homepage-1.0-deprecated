@@ -1,9 +1,9 @@
 
 {% for post in site.posts %}
   <div class="animated shimmy postIndexItem {{ post.tags }}" >
-    <div style="background-image: url('{{ post.image_path }}');">
-      <p class="nomargin postsTitle"><span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span></p>
-    </div>
+      <div style="background-image: url('{{ post.image_path }}');" onClick=window.location="{{ post.url | prepend: site.baseurl }}">
+        <p class="nomargin postsTitle"><span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span></p>
+      </div>
     <p>{{ post.content | strip_html | truncatewords: 50  }}</p>
   </div>
 {% endfor %}
