@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id="flexContainer">
+
+  <div id="flexContent" >
+    <div class="contentItem">
+      <p>{{page.excerpt}}</p>
+      <p class="metadata">{{page.date | date: "%-d %B, %Y" }}</p>
+      {{ content }}
+    </div>
+  </div>
+
+  <div id="flexPosts">
+    <h3 class="centered">Blog posts</h3>
+    {% include postsLoop.html %}
+  </div>
+
+</div>
