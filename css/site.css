@@ -79,6 +79,12 @@ a:hover {
   align-items: flex-start;
   margin: 0px;
   padding: 0px;
+  opacity: 0.7;
+  transition: opacity .8s ease-in-out;
+}
+.postIndexItem div:hover {
+  opacity: 1.0;
+  transition: opacity .3s ease-in-out;
 }
 /* Title banner text items */
 .postIndexItem > div > p {

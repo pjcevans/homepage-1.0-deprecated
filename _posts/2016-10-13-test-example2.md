@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Flex - css"
+title: "Example post 2"
 excerpt:  "Flex - or CSS3 Flexible Boxes (Or... Flexbox)"
 date:   2016-10-10 19:25:34 +0100
 image_path: /images/flexbox_froggy.png
-tags: css
+tags: example
 ---
 
 

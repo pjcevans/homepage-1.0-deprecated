@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Flex - frameworks"
+title: "Example post 1"
 date:   2016-10-10 19:25:34 +0100
 image_path: /images/flexbox_froggy.png
-tags: frameworks
+tags: example
 ---
 
 
