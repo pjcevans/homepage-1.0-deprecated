@@ -4,7 +4,7 @@ title: "URL Parameters"
 excerpt:  "URL Query String Parameters"
 date:   2016-10-30 19:25:34 +0100
 image_path: /images/query.png
-tags: browser
+categories: Browser
 ---
 
 URL query string parameters represent extra information that can be appended to the Uniform Resource Identifier (URI) which is being used to locate a resource on the internet.

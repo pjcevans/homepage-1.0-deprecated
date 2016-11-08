@@ -8,9 +8,7 @@ layout: default
       <ol>
         <li><label>Filter by: </label></li>
         <li><button onClick="reset();">all</button></li>
-      {% for category in site.categories %}
-        <li><button onClick="showAll('{{category | pop}}');">{{category | pop}}</button></li>
-      {% endfor %}
+        {% include practiceTagLoop.html %}
     </ol>
     </div>
     <div class="contentIndexItem">
