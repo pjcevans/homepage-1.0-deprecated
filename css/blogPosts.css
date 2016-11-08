@@ -53,6 +53,7 @@
   padding: 0px;
   opacity: 0.7;
   transition: opacity .8s ease-in-out;
+  background-size: cover;
 }
 .postIndexItem div:hover {
   opacity: 1.0;
@@ -74,8 +75,10 @@
 
 /* Individual post blocks */
 .postIndexItem {
-  min-width: 200px;
-  max-width: 470px;
+  /* min-width: 200px;
+  max-width: 470px; */
+
+  width: 470px;
   margin: 15px;
   color: white;
 }

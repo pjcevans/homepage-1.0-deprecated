@@ -1,6 +1,6 @@
 
 {% for post in site.posts %}
-  <div class="animated shimmy postIndexItem {{ post.tags }}" onClick=window.location="{{ post.url | prepend: site.baseurl }}">
+  <div class="animated shimmy postIndexItem {{ post.categories }}" onClick=window.location="{{ post.url | prepend: site.baseurl }}">
       <div style="background-image: url('{{ post.image_path }}');">
         <p class="nomargin postsTitle"><span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span></p>
       </div>
