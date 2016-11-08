@@ -1,5 +1,5 @@
 {% for item in site.practice %}
-<div class="animated shimmy postIndexItem {{ item.tags }}" onClick=window.location="{{ item.url | prepend: 'https://pjcevans.github.io/js-examples' }}">
+<div class="animated shimmy postIndexItem {{ item.tags }}" onClick=window.location="{{ item.url | prepend: site.baseurl }}">
     <div style="background-image: url('{{ item.image_path }}');">
       <p class="nomargin postsTitle"><span><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></span></p>
     </div>
@@ -7,7 +7,7 @@
 </div>
 {% endfor %}
 
-
+<!-- {{ item.name | prepend: 'https://pjcevans.github.io/js-examples/' }}" -->
 <!--
 <div class="postItem">
   <p class="nomargin postsTitle"><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></p>
