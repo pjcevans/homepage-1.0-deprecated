@@ -1,9 +1,22 @@
 .contentItem h1 {
   border-left: 6px solid orange;
+  border-left: 8px solid purple;
   padding-left: 10px;
 }
 
 .contentItem h3 {
   border-left: 6px solid purple;
   padding-left: 10px;
+}
+
+.contentItem h4 {
+  border-left: 3px solid purple;
+  padding-left: 10px;
+}
+
+.contentItem blockquote p {
+  background-color: #EFF2F7;
+  width:fit-content;
+  padding: 6px;
+  border-radius: 10px;
 }

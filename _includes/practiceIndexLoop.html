@@ -5,7 +5,7 @@
   </div>
   <ul class="practiceLinks">
     <li><a href="{{item.code-pen}}">CodePen</a></li>
-    <li><a>Repo</a></li>
+    <li><a href="{{item.repo}}">Repo</a></li>
     <li><a href="{{ item.url | prepend: site.baseurl }}">Preview</a></li>
   </ul>
   <p>{{ item.excerpt | strip_html | truncatewords: 50  }}</p>
