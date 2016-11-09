@@ -1,8 +1,13 @@
 {% for item in site.practice %}
-<div class="animated shimmy postIndexItem {{ item.tags }}" onClick=window.location="{{ item.url | prepend: site.baseurl }}">
-    <div style="background-image: url('{{ item.image_path }}');">
-      <p class="nomargin postsTitle"><span><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></span></p>
-    </div>
+<div class="animated shimmy postIndexItem {{ item.tags }}">
+  <div style="background-image: url('{{ item.image_path }}');"  onClick=window.location="{{ item.url | prepend: site.baseurl }}">
+    <p class="nomargin postsTitle"><span><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></span></p>
+  </div>
+  <ul class="practiceLinks">
+    <li><a href="{{item.code-pen}}">CodePen</a></li>
+    <li><a>Repo</a></li>
+    <li><a href="{{ item.url | prepend: site.baseurl }}">Preview</a></li>
+  </ul>
   <p>{{ item.excerpt | strip_html | truncatewords: 50  }}</p>
 </div>
 {% endfor %}

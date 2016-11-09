@@ -14,7 +14,6 @@ nav ul {
   flex-direction: row-reverse;
   justify-content: flex-end;
   height: 100%;
-
 }
 
 nav ul li {
@@ -22,7 +21,6 @@ nav ul li {
   padding: 7px;
   padding-bottom: 2px;
   background-color: #EFF2F7;
-
 }
 nav ul li:first-child {
   border-top-right-radius: 10px;

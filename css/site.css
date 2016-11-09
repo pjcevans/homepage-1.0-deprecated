@@ -46,6 +46,8 @@ a:hover {
 
 .postsTitle {
   font-size: 15px;
+  border-top: thin solid white;
+  border-right: thin solid white;
 }
 
 .postsMetadata {
