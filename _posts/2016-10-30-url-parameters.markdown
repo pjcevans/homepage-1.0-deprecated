@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blogPage
 title: "URL Parameters"
 excerpt:  "URL Query String Parameters"
 date:   2016-10-30 19:25:34 +0100

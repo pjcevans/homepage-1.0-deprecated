@@ -2,6 +2,7 @@
 @import "blogPosts.css";
 @import "navBar.css";
 @import "tagBar.css";
+@import "markdownContent.css";
 
 body {
   font-family: Tahoma, Geneva, sans-serif;

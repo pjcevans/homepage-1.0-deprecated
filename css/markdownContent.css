@@ -1,0 +1,9 @@
+.contentItem h1 {
+  border-left: 6px solid orange;
+  padding-left: 10px;
+}
+
+.contentItem h3 {
+  border-left: 6px solid purple;
+  padding-left: 10px;
+}
