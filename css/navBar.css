@@ -5,7 +5,8 @@ nav {
   background-image: url("/images/board.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 100px;
+  /*min-height: 100px;*/
+  min-height: 75px;
 }
 
 nav ul {
@@ -29,7 +30,8 @@ nav ul li:first-child {
 
 @media (min-width: 768px) {
   nav {
-    min-height: 240px;
+    /*min-height: 240px;*/
+    min-height: 180px;
   }
   nav ul li {
     font-size: 1.3em;
