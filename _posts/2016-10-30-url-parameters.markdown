@@ -17,7 +17,7 @@ The query string is initiated with a "?" character which serves to separate the 
 
 As the server at example.com does not handle the parameter variables "type" or "feet" the query string is apparently not used in any special way.
 
-#### APIs
+### APIs
 
 Currently, one of the areas in which URL query string parameters are most used is when manipulating APIs
 
@@ -30,17 +30,17 @@ The above query string specifies the following information:
 + a "format" value of "xml",  which most likely controls the format in which the quote is returned to the client
 + a "lang" value of "en", which likely controls the language in which the famous quote is returned
 
-### Other applications
+## Other applications
 
 In a recent simple [Free Code Camp](https://www.freecodecamp.com/challenges/build-a-random-quote-machine) challenge to produce an [application which produces random quotes and allows you to share them on Twitter](https://codepen.io/pjce/full/QKXqEg/) I used query strings in a couple of interesting manners.
 
-#### To route a request via a proxy
+### To route a request via a proxy
 
 As a shortcut to managing a [cross domain call](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) to a random quotes API. By sending a request to https://jsonp.afeld.me/ with the query string "?url=http://quotes.stormconsultancy.co.uk/random.json" I am effectively wrapping my call to the API in the required authorization to have a cross-domain request return successfully. What's significant about this is that by passing the url as a query string and having the payload routed via another website jsonp.afeld.me is effectively acting like a proxy server for this call.
 
 > [https://jsonp.afeld.me/?url=http://quotes.stormconsultancy.co.uk/random.json](https://jsonp.afeld.me/?url=http://quotes.stormconsultancy.co.uk/random.json)
 
-#### To post on Twitter
+### To post on Twitter
 
 Twitter supports a "status" query string which calls a function, or series of functions, to post the associated information as your current twitter status
 

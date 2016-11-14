@@ -7,7 +7,7 @@ layout: default
     <div class="tagBar">
       <ol>
         <li><label>Filter by: </label></li>
-        <li><button onClick="reset();">all</button></li>
+        <li><button onClick="reset();">All</button></li>
       {% for category in site.categories %}
         <li><button onClick="showAll('{{category | pop}}');">{{category | pop}}</button></li>
       {% endfor %}

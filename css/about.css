@@ -1,0 +1,8 @@
+#contact {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact ul li {
+  display: inline;
+}

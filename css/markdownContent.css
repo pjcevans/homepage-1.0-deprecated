@@ -4,12 +4,11 @@
   padding-left: 10px;
 }
 
-.contentItem h3 {
+.contentItem h2 {
   border-left: 6px solid purple;
   padding-left: 10px;
 }
-
-.contentItem h4 {
+.contentItem h3 {
   border-left: 3px solid purple;
   padding-left: 10px;
 }
