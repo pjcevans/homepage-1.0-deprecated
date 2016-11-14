@@ -1,8 +1,15 @@
 #contact {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#contact ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
 
 #contact ul li {
-  display: inline-block;
+  padding-right: 2px;
 }

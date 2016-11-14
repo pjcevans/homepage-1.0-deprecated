@@ -27,7 +27,8 @@
 
 .contentItem h1 + img {
   float: right;
-  margin-bottom: 15px;
+  margin-bottom: 3%;
+  margin-right: 2%;
 }
 
 .contentItem p {
