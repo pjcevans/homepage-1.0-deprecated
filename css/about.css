@@ -13,3 +13,8 @@
 #contact ul li {
   padding-right: 2px;
 }
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+}
