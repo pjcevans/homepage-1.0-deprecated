@@ -13,6 +13,7 @@ body {
   margin: 0px;
   background: #EFF2F7;
   min-height: 800px;
+  line-height: 1.5;
 }
 
 iframe {
