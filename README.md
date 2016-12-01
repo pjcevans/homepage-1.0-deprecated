@@ -8,4 +8,4 @@ Charting one's progress in any endeavour is useful in that it can help others to
 
 ### How
 
-The site is built with Jekyll in order to break common code into reusable chunks and to provide basic blog functionality with the minimum of fuss behind the scenes. Style and structure is separate from content meaning that blog posts can be added by including a new markdown file, without the necessity or temptation to change the style or structure of the site.
+The site is built with Jekyll in order to break common code into reusable chunks and to provide basic blog functionality with the minimum of fuss behind the scenes. Style and structure are separate from content meaning that blog posts can be added by including a new markdown file, without the necessity or temptation to change the style or structure of the site.
